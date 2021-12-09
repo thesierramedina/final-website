@@ -35,6 +35,14 @@ li a:hover {
   color: grey;
 }
 
+h2 h3 h4 {
+  color: #535952;
+}
+
+.fake:hover {
+  color: grey;
+}
+
 .main {
   float: left;
   width: 60%;
@@ -78,7 +86,7 @@ padding-top: 1em;
 }
 
 .photoinfo {
-  text-align: center;
+  
   font-family: 'Hind Siliguri', sans-serif;
 }
 
