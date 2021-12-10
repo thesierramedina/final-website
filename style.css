@@ -39,6 +39,10 @@ h2 h3 h4 {
   color: #535952;
 }
 
+#ft {
+  color: white;
+}
+
 .fake:hover {
   color: grey;
 }
@@ -80,11 +84,15 @@ max-width: 100%;
 padding-top: 1em;
 }
 
-.phototext {
+.cup {
+  padding-right: 20px;
+}
+
+.text {
   font-family: 'Hind Siliguri', sans-serif;
 }
 
-.photoinfo {
+.info {
   font-family: 'Hind Siliguri', sans-serif;
 }
 
@@ -102,9 +110,26 @@ padding-top: 1em;
     width: 100%;
   }
 }
+
+@media only screen and (max-width:1000px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: ;
+  }
+  .right {
+    width: 100%;
+  }
+
+  .row .row-cols-2 .card {
+    width: 100%;
+
+  }
+}
+
 @media only screen and (max-width:750px) {
   /* For mobile phones: */
-  .menu, .main, .right {
+  .menu, .main, .right .row .row-cols-2 .card {
     width: 100%;
   }
 }
